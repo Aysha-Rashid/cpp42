@@ -1,0 +1,19 @@
+
+Array in c++
+-> arrays are created in c++ in a contiguous form
+-> how is a index calculated in a array is using (name of the array variable) + index * sizeof(the variable type)
+using the standard array library we can access the 
+
+
+
+An empty container contains no data so we need to add into it:
+    - you can traverse the container in particular direction
+        - by defining a begin and end which allows us to create a special object
+            called iterator which allows us to identify one of the element in the array.
+
+
+Stack container
+    - unlike vector or any other containers, stack can not be accessed through their index rather only the top
+        of the stack. That's why it is not iterable. (.top())
+    - We cannot add elements during its declaration such as stack<string> car = {"Mercedes", "Ford", "toyota"};
+    - to add elements to the top we use .push() and to remove the element from the top we use .pop()

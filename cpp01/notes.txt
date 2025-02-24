@@ -1,0 +1,20 @@
+cpp01
+- ex00
+	- stack
+	- heap
+- ex01
+	- allocating a array in heap
+- ex02
+	- reference
+	- pointer
+- ex03
+	- using pointer
+	- using reference
+- ex04
+	- opening a file and replace some content of orginal file
+		in another file using string() function.
+- ex05
+	- using pointers to use member function.
+
+
+- object is a instance of a class	
